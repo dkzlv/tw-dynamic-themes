@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 * {
-  @apply outline-secondary-500 dark:outline-secondary-400;
+  @apply outline-accent-500 dark:outline-accent-400;
 }

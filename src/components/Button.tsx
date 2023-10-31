@@ -8,7 +8,7 @@ const button = cva(
     defaultVariants: { theme: "accent" },
     variants: {
       theme: {
-        accent: "bg-secondary-500 text-secondary-50 hover:bg-secondary-400",
+        accent: "bg-accent-500 text-accent-50 hover:bg-accent-400",
         alert:
           "bg-red-500 text-white hover:bg-danger-400 focus-visible:outline-danger-500",
         ghost:

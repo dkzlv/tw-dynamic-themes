@@ -18,8 +18,6 @@ const config: Config = {
       colors: {
         accent: dynamicTwClasses("accent", 40),
         danger: colors.red,
-
-        secondary: dynamicTwClasses("secondary", 220),
         success: colors.green,
       },
     },

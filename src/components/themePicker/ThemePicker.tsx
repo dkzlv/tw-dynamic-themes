@@ -19,11 +19,10 @@ export const getThemeDataFromCookies = () => {
 
 export function getThemeData(hue: string, darkMode: boolean) {
   const accent = getVariables({ baseName: "accent", hue: +hue });
-  const secondary = getVariables({ baseName: "secondary", hue: +hue + 180 });
 
   return {
     className: darkMode ? "dark" : "",
-    style: { ...Object.fromEntries(accent), ...Object.fromEntries(secondary) },
+    style: Object.fromEntries(accent),
   };
 }
 
